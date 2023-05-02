@@ -44,16 +44,24 @@
     width: 100%;
 }
 .about{
-    margin: 5% 20%;
+    margin: 5% 5%;
     font-size: large;
-    text-align: left;
+    text-align: right;
+    display: inline-block;
 }
-.about h1{
+.about img{
+    margin-left: 10%;
+    max-width: 30%;
+    display: inline-block;
+    border-radius: 50% 50%;
+}
+.about-text{
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+.about-text h1{
     font-size: 75px;
     font-family:'Franklin Gothic Medium';
     color: peru;
-}
-.about p{
-    width: 40%;
-    text-align: right;
 }
